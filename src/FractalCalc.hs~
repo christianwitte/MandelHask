@@ -1,0 +1,9 @@
+import Data.complex
+
+data Context = Context { width :: Int,
+                         height :: Int,
+                         minX :: Float,
+                         maxX :: Float,
+                         minY :: Float,
+                         maxY :: Float
+                         } deriving (Show)
